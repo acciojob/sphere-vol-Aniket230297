@@ -1,12 +1,3 @@
-// function volume_sphere() {
-//     //Write your code here
-// 	let  radius="document.getElementById("radius").value";
-// 		window.alert(radius);
-	
-// } 
-
-// window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
-
 function volume_sphere() {
   // Get the radius value from the input field
   let radius = document.getElementById("radius").value;
@@ -24,5 +15,3 @@ function volume_sphere() {
 window.onload = function() {
   document.getElementById('MyForm').onsubmit = volume_sphere;
 };
-
-	
